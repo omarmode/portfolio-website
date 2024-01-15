@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  text-align: left;
+}
+.rit {
+  text-align: right;
+  margin-left: 650px;
+}
+
+.ritcolor {
+  color: aliceblue;
+  text-transform: capitalize;
+}
+.ritcolor:hover {
+  color: #007bff;
+}
+
+h1,
+h2 {
+  color: aliceblue;
+}
+.itemAbout {
+  margin: 35px 0;
+}
+h1 {
+  font-size: 60px;
+}
+.itemAbout h4 {
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.514);
+}
+.about {
+  padding: 60px 0;
+}
+#aboutlink {
+  transition: 1s;
+}
+.imageabout {
+  border: #007bff 3px solid;
+  border-radius: 30px;
+}
+.p-text {
+  color: rgba(255, 255, 255, 0.514);
+  font-size: 20px;
+}
+p {
+  color: rgba(255, 255, 255, 0.514);
+}
+.services {
+  padding: 60px 0;
+}
+
+.project-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 456px;
+  font-weight: 1000;
+  font-size: 20px;
+}
+.project-title2 {
+  margin-left: 390px;
+  margin-top: 5px;
+}
+.project-portofolio {
+  position: relative;
+  margin: 20px 0;
+}
+.iamge-projctes {
+  height: 250px;
+  border-radius: 65px;
+  padding: 50px;
+}
+.project-portofolio .layer {
+  position: absolute;
+  top: 38px;
+  left: 50px;
+  width: 77%;
+  height: 66%;
+  background-color: rgba(0, 0, 0, 0.5); /*علشان اخلي الون الباك جروند شفاف */
+  opacity: 0;
+  transition: opacity 0.7s;
+  border-radius: 20px;
+}
+.project-portofolio:hover .layer {
+  opacity: 1;
+}
+.project-portofolio .layer .layer2 {
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+.iamge-projctes2 {
+  height: 250px;
+  border-radius: 65px;
+  padding: 50px;
+}
+.project-portofolio2 {
+  position: relative;
+  margin: -269px 269px;
+  padding-bottom: 6%;
+  width: 86%;
+  /* padding-left: 59px; */
+}
+.project-portofolio2 .layer {
+  position: absolute;
+  top: 38px;
+  left: 50px;
+  width: 77%;
+  height: 66%;
+  background-color: rgba(0, 0, 0, 0.5); /*علشان اخلي الون الباك جروند شفاف */
+  opacity: 0;
+  transition: opacity 0.7s;
+  border-radius: 20px;
+}
+.project-portofolio2:hover .layer {
+  opacity: 1;
+}
+.project-portofolio2 .layer .layer2 {
+  text-align: center;
+  color: white;
+  padding: 36px 0;
+}
+.project-portofolio3 {
+  position: relative;
+  left: -425px;
+  bottom: 218px;
+  width: 50px;
+}
+.iamge-projctes3 {
+  width: 246px;
+  height: 149px;
+  border-radius: 40px;
+}
+.project-portofolio3 .layer {
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  width: 496%;
+  height: 103%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.7s;
+  border-radius: 41px;
+}
+.project-portofolio3:hover .layer {
+  opacity: 1;
+}
+.project-portofolio3 .layer .layer2 {
+  text-align: center;
+  padding-top: 27px;
+  color: white;
+}
+.job-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 1000;
+}
+.w-100 {
+  width: 100% !important;
+  height: 147px;
+  padding-bottom: -10px;
+  margin-bottom: 69px;
+}
+.jobsItem1 {
+  position: relative;
+  width: 100%;
+}
+.jobsItem1 .layerJobs1 {
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  width: 100%;
+  height: 72%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.7s;
+  border-radius: 30px;
+}
+.jobsItem1:hover .layerJobs1 {
+  opacity: 1;
+}
+.layerJobstitle1,
+.layerJobstitle2,
+.layerJobstitle3 {
+  text-align: center;
+  padding-top: 22px;
+}
+.jobsItem2,
+.jobsItem3 {
+  position: relative;
+  width: 100%;
+}
+.jobsItem2 .layerJobs2,
+.jobsItem3 .layerJobs3 {
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  width: 100%;
+  height: 72%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.7s;
+  border-radius: 30px;
+}
+.jobsItem2:hover .layerJobs2,
+.jobsItem3:hover .layerJobs3 {
+  opacity: 1;
+}
+.center-title {
+  text-align: center;
+}
+.center-btn {
+  margin-left: 45%;
+}
+.p-title {
+  padding: 20px 0;
+  font-size: small;
+}
+.title-icons {
+  padding-top: 20px;
+  font-size: 170%;
+}
